@@ -1,0 +1,54 @@
+body {
+    font-family: ;
+    margin: 0;  /*mengatur jarak tepi */
+    color: #000000;
+    background-color: pink;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ffff;
+    padding: 20px 0;    /*mengatur jarak tepi atas dan bawah 20px, kiri dan kanan 0px */
+}
+
+header img {
+    border-radius: 8px;
+    max-width: 90%; /* mengatur panjang max */
+    height: auto;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav a {             /*Sejarah, Fasilitas, Staf, PPDB */
+    color: rgb(165, 37, 79);
+    text-decoration: none;  /*agar tidak ada underline pada link */
+    margin: 0 10px;     /*atur jarak link */
+    font-weight: bold;  /*font cetak tebal */
+}
+
+nav a:hover {
+    background-color: pink;
+    color: rgb(119, 5, 5);     /*link pada tulisan jika ditekan */
+    border-bottom: 2px solid rgb(99, 7, 22);
+}
+
+main {
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: rgb(175, 104, 115);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;        /*jarak bawah */
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
