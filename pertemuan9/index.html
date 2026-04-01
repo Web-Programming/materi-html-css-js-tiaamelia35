@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+</head>
+<body>
+    <h1 id = "demo"></h1>
+
+    <!--WEB STORAGE-->
+    <script>
+        
+        // Local Storage
+        localStorage.setItem("name", "Tia Amelia");     //test comment
+        document.getElementById("demo").innerHTML = localStorage.getItem("name");
+
+        // Session Storage: akan dihapus jika browser ditutup
+        sessionStorage.setItem("name", "Amelia Tia");       //test comment
+        document.getElementById("demo").innerHTML = sessionStorage.getItem("name");
+
+        //lihat perbedaan cara kerja keduanya dengan memberi tanda komentar "//" pada set item dan membuka tutup browser
+
+
+        // Cookie: penyimpanan data berdasarkan waktu, akan hilang jika set waktu dan bisa juga manual
+        document.cookie = "username Tia Amelia Cookie;"
+
+    </script>
+</body>
+</html>

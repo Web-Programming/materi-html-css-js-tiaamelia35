@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;       /*jarak dari layar ke teks*/
+}
+
+.container {
+    max-width: 400px;           /*mengatur posisi teks*/
+}
+
+input {
+    padding: 8px;       /*mengatur ukuran box*/
+    width: 70%;         /*mengatur ukuran lebar kotak*/
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;        /*saat kursor diarahkan ke kotak input maka berubah*/
+}
+
+ul {
+    margin-top: 20px;
+}
